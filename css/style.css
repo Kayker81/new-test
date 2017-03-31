@@ -72,7 +72,63 @@ table {
   margin-left: 100%; }
 
 .wraper {
-  width: 100%;
-  font-family: 'SegoeUI'; }
+  width: 100%; }
+
+.content {
+  width: 1170px;
+  margin: 0 auto; }
+
+header {
+  min-height: 103px;
+  background: #ffffff; }
+  header .line {
+    width: 100%;
+    margin-top: 22px; }
+    header .line .logo {
+      float: left;
+      display: flex; }
+    header .line .right {
+      float: right;
+      height: 47px;
+      margin-top: 4.4px; }
+      header .line .right .link-block {
+        float: left;
+        font: 16px/43px 'open_sans_regular';
+        color: #2f93e9;
+        margin-right: 35px; }
+        header .line .right .link-block span {
+          display: inline-block;
+          color: #5c5c5c;
+          margin-left: 3.5px; }
+      header .line .right .skype {
+        padding-left: 15px;
+        background: url("../img/skype.jpg") left center no-repeat; }
+      header .line .right .enter {
+        float: left;
+        width: 125px;
+        height: 47px;
+        font: 16px/47px 'open_sans_semibold';
+        text-transform: uppercase;
+        color: #5c5c5c;
+        border: 1px solid #acacac;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        text-align: center; }
+      header .line .right .reg {
+        float: left;
+        margin-left: 30px;
+        width: 185px;
+        height: 47px;
+        box-sizing: border-box;
+        border-bottom: 2px solid #287dc6;
+        background: #2f93e9;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        font: 16px/47px 'open_sans_semibold';
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

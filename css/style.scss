@@ -1,14 +1,70 @@
 @import "reset.scss";
 
-
-
 .wraper {
   width: 100%;
 
 }
-.content{
+
+.content {
 
   width: 1170px;
   margin: 0 auto;
+}
+header{
+  min-height: 103px;
+  background: #ffffff;
+  .line{
+    width: 100%;
+    margin-top: 22px;
+    .logo{
+      float: left;
+      display: flex;
+    }
+    .right{
+      float: right;
+      height: 47px;
+      margin-top: 4.4px;
+      .link-block{
+        float: left;
+        font: 16px/43px 'open_sans_regular';
+        color: #2f93e9;
+        margin-right: 35px;
+        span{
+          display: inline-block;
+          color: #5c5c5c;
+          margin-left: 3.5px;
+        }
+      }
+      .skype{
+        padding-left: 15px;
+        background: url("../img/skype.jpg") left center no-repeat;
+      }
+      .enter{
+        float: left;
+        width: 125px;
+        height: 47px;
+        font: 16px/47px 'open_sans_semibold';
+        text-transform: uppercase;
+        color: #5c5c5c;
+        border: 1px solid #acacac;
+        @include radius(3px);
+        text-align: center;
+      }
+      .reg{
+        float: left;
+        margin-left: 30px;
+        width: 185px;
+        height: 47px;
+        box-sizing: border-box;
+        border-bottom: 2px solid #287dc6;
+        background: #2f93e9;
+        @include radius(3px);
+        font: 16px/47px 'open_sans_semibold';
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+  }
 }
 
