@@ -6,8 +6,8 @@
 }
 
 .content {
-
-  width: 1170px;
+width: 84.37%;
+  max-width: 1170px;
   margin: 0 auto;
 }
 header{
@@ -16,14 +16,28 @@ header{
   .line{
     width: 100%;
     margin-top: 22px;
+    @media(max-width: 377px) {
+      text-align: center;
+
+    }
     .logo{
       float: left;
       display: flex;
+      @media(max-width: 377px) {
+        display: inline-flex;
+        float: none;
+
+      }
     }
     .right{
       float: right;
       height: 47px;
       margin-top: 4.4px;
+      @media(max-width: 377px) {
+        text-align: center;
+        width: 100%;
+
+      }
       .link-block{
         float: left;
         font: 16px/43px 'open_sans_regular';
@@ -33,6 +47,10 @@ header{
           display: inline-block;
           color: #5c5c5c;
           margin-left: 3.5px;
+        }
+        @media(max-width: 943px) {
+          display: none;
+          
         }
       }
       .skype{
@@ -49,6 +67,15 @@ header{
         border: 1px solid #acacac;
         @include radius(3px);
         text-align: center;
+        @media(max-width: 943px) {
+          float: right;
+
+        }
+        @media(max-width: 377px) {
+          display: inline-block;
+          float: none;
+
+        }
       }
       .reg{
         float: left;
@@ -63,7 +90,81 @@ header{
         text-transform: uppercase;
         color: #ffffff;
         text-align: center;
+        @media(max-width: 943px) {
+          display: none;
+
+        }
       }
+    }
+  }
+}
+.slogan{
+  min-height: 505px;
+  background: url("../img/slogan.jpg") center top no-repeat;
+  background-size: 100% 100%;
+  @media(max-width: 865px){
+    padding-bottom: 38px;
+  }
+  .content{
+    overflow: hidden;
+    @media(max-width: 431px){
+      width: 96%;
+    }
+  }
+  .zag{
+    float: left;
+    width: 100%;
+    font: 48px/66px 'open_sans_semibold';
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    letter-spacing: -0.4px;
+    span{
+      width: 100%;
+      display: inline-block;
+      @media(max-width: 964px){
+     width: auto;
+      }
+    }
+    @media(max-width: 640px){
+      font-size: 35px;
+    }
+  }
+  .text{
+    float: left;
+    width: 100%;
+    font: 22px/33px 'open_sans_regular';
+    color: #ffffff;
+    text-align: center;
+    span{
+      width: 100%;
+      display: inline-block;
+      @media(max-width: 1100px){
+        width: auto;
+        display: inline;
+      }
+    }
+
+  }
+  .button-line{
+    float: left;
+    width: 100%;
+    margin-top: 56px;
+    .button{
+      display: block;
+      width: 295px;
+      height: 65px;
+      font: 16px/65px 'open_sans_semibold';
+      text-transform: uppercase;
+      color: #ffffff;
+      text-align: center;
+      margin: 0 auto;
+      box-sizing: border-box;
+      border-bottom: 2px solid #287dc6;
+      background: #2f93e9;
+      @include radius(3px);
     }
   }
 }
