@@ -78,6 +78,10 @@ table {
 .res_line {
   text-align: justify;
 }
+.res_line:after{
+  content: '';
+  margin-left: 100%;
+}
 .line_block {
   display: inline-block;
   float: none;
