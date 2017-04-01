@@ -6,21 +6,22 @@
 }
 
 .content {
-width: 84.37%;
+  width: 84.37%;
   max-width: 1170px;
   margin: 0 auto;
 }
-header{
+
+header {
   min-height: 103px;
   background: #ffffff;
-  .line{
+  .line {
     width: 100%;
     margin-top: 22px;
     @media(max-width: 377px) {
       text-align: center;
 
     }
-    .logo{
+    .logo {
       float: left;
       display: flex;
       @media(max-width: 377px) {
@@ -29,7 +30,7 @@ header{
 
       }
     }
-    .right{
+    .right {
       float: right;
       height: 47px;
       margin-top: 4.4px;
@@ -38,26 +39,26 @@ header{
         width: 100%;
 
       }
-      .link-block{
+      .link-block {
         float: left;
         font: 16px/43px 'open_sans_regular';
         color: #2f93e9;
         margin-right: 35px;
-        span{
+        span {
           display: inline-block;
           color: #5c5c5c;
           margin-left: 3.5px;
         }
         @media(max-width: 943px) {
           display: none;
-          
+
         }
       }
-      .skype{
+      .skype {
         padding-left: 15px;
         background: url("../img/skype.jpg") left center no-repeat;
       }
-      .enter{
+      .enter {
         float: left;
         width: 125px;
         height: 47px;
@@ -67,10 +68,10 @@ header{
         border: 1px solid #acacac;
         @include radius(3px);
         text-align: center;
-        &:hover{
+        &:hover {
           -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-          -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-          box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+          -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
         }
         @media(max-width: 943px) {
           float: right;
@@ -82,7 +83,7 @@ header{
 
         }
       }
-      .reg{
+      .reg {
         float: left;
         margin-left: 30px;
         width: 185px;
@@ -95,10 +96,10 @@ header{
         text-transform: uppercase;
         color: #ffffff;
         text-align: center;
-        &:hover{
+        &:hover {
           -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-          -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-          box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+          -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
         }
         @media(max-width: 943px) {
           display: none;
@@ -108,20 +109,21 @@ header{
     }
   }
 }
-.slogan{
+
+.slogan {
   min-height: 505px;
   background: url("../img/slogan.jpg") center top no-repeat;
   background-size: 100% 100%;
-  @media(max-width: 865px){
+  @media(max-width: 865px) {
     padding-bottom: 38px;
   }
-  .content{
+  .content {
     overflow: hidden;
-    @media(max-width: 431px){
+    @media(max-width: 431px) {
       width: 96%;
     }
   }
-  .zag{
+  .zag {
     float: left;
     width: 100%;
     font: 48px/66px 'open_sans_semibold';
@@ -131,38 +133,38 @@ header{
     margin-top: 70px;
     margin-bottom: 30px;
     letter-spacing: -0.4px;
-    span{
+    span {
       width: 100%;
       display: inline-block;
-      @media(max-width: 964px){
-     width: auto;
+      @media(max-width: 964px) {
+        width: auto;
       }
     }
-    @media(max-width: 640px){
+    @media(max-width: 640px) {
       font-size: 35px;
     }
   }
-  .text{
+  .text {
     float: left;
     width: 100%;
     font: 22px/33px 'open_sans_regular';
     color: #ffffff;
     text-align: center;
-    span{
+    span {
       width: 100%;
       display: inline-block;
-      @media(max-width: 1100px){
+      @media(max-width: 1100px) {
         width: auto;
         display: inline;
       }
     }
 
   }
-  .button-line{
+  .button-line {
     float: left;
     width: 100%;
     margin-top: 56px;
-    .button{
+    .button {
       display: block;
       width: 295px;
       height: 65px;
@@ -175,40 +177,41 @@ header{
       border-bottom: 2px solid #287dc6;
       background: #2f93e9;
       @include radius(3px);
-      &:hover{
+      &:hover {
         -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-        -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-        box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+        box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
       }
     }
   }
 }
-.actuality{
+
+.actuality {
   min-height: 578px;
   background: #ffffff;
-  .zag{
-    font-family:  'open_sans_regular';
+  .zag {
+    font-family: 'open_sans_regular';
     font-size: 38px;
     color: #5c5c5c;
     width: 100%;
     text-align: center;
     margin-top: 25px;
   }
-  .podzag{
+  .podzag {
     width: 100%;
-    font:22px/34px 'open_sans_regular';
+    font: 22px/34px 'open_sans_regular';
     color: #5c5c5c;
     text-align: center;
     margin-top: 15px;
-    span{
+    span {
       display: inline-block;
       width: 100%;
     }
   }
-  .line{
+  .line {
     width: 100%;
     margin-top: 61px;
-    .block{
+    .block {
       display: inline-block;
       float: none;
       box-sizing: border-box;
@@ -216,17 +219,17 @@ header{
       background-repeat: no-repeat;
       width: auto;
       vertical-align: top;
-      @media(max-width: 1223px){
+      @media(max-width: 1223px) {
         padding-left: 0px;
-        padding-top:107px;
+        padding-top: 107px;
         background-position: center top;
         margin-bottom: 68px;
       }
       @media (max-width: 922px) {
         width: 100%;
-        
+
       }
-      h3{
+      h3 {
         font: 24px/24px 'open_sans_regular';
         color: #5c5c5c;
         margin-bottom: 20px;
@@ -238,8 +241,8 @@ header{
 
         }
       }
-      p{
-        font:16px/25px 'open_sans_regular';
+      p {
+        font: 16px/25px 'open_sans_regular';
         color: #5c5c5c;
         @media (max-width: 922px) {
           width: 100%;
@@ -248,7 +251,7 @@ header{
           line-height: 31px;
 
         }
-        span{
+        span {
           display: block;
           @media (max-width: 922px) {
             display: inline;
@@ -258,7 +261,7 @@ header{
       }
     }
   }
-  .icon1{
+  .icon1 {
     background-image: url("../img/icon1.jpg");
     padding-left: 92px;
     @media (max-width: 922px) {
@@ -267,43 +270,44 @@ header{
 
     }
   }
-  .icon2{
+  .icon2 {
     background-image: url("../img/icon2.jpg");
     padding-left: 75.67px;
     @media (max-width: 922px) {
       padding-top: 130px !important;
       background-size: 68px 97px;
-      
+
     }
   }
-  .icon3{
+  .icon3 {
     background-image: url("../img/icon3.jpg");
     padding-left: 86.67px;
     @media (max-width: 922px) {
       padding-top: 100px;
-            background-size: 84px 80px;
+      background-size: 84px 80px;
 
     }
   }
 }
-footer{
+
+footer {
   min-height: 50px;
-  .copir{
+  .copir {
     width: 100%;
-    font:16px/50px 'open_sans_regular';
+    font: 16px/50px 'open_sans_regular';
     color: #5c5c5c;
     text-align: center;
-    @media(max-width: 943px){
+    @media(max-width: 943px) {
       font-size: 22.6px;
       line-height: 40px;
     }
 
   }
-  .link-line{
+  .link-line {
     width: 100%;
     text-align: center;
     display: none;
-    @media(max-width: 943px){
+    @media(max-width: 943px) {
       display: block;
     }
     .link-block {
@@ -312,7 +316,7 @@ footer{
       font: 16px/43px 'open_sans_regular';
       color: #2f93e9;
       margin-right: 0px;
-      a,span{
+      a, span {
         font-size: 22px;
       }
       .skype {
